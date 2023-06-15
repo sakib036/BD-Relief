@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 90%;
+    margin: 0 auto;
+}
 .logo{
     padding: 10px 0;
     position: absolute;
@@ -48,4 +52,71 @@ nav{
     background-color: goldenrod;
     padding: 5px 10px;
     border-radius: 10px;
+}
+.header{
+    /* width:90%; */
+    height:800px;
+    margin: 0 auto;
+   background-image: linear-gradient( to top, rgba(0, 0, 0, .8),  rgba(255, 255, 255, 0.8)),  url(donation0.jpg) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.header-text{
+    padding: 100px;
+}
+.header-text h1 , .contribution h1{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+
+}
+.header-text p , .contribution p{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 40px;
+
+}
+.donate-btn{
+  
+    background-color: goldenrod;
+    color: white;
+    padding: 5px 10px;
+    font-size: 2em;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.header-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contribution{
+    margin-top: 100px;
+}
+.cont-sec{
+    background-image: url(donation0.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+  width: 90%;
+    height:600px;
+}
+.contribution{
+    width:full;
+    height:800px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:5em;
+
+
 }
